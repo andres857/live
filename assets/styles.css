@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(235, 235, 238) !important; 
+    margin:0px;
+}
+
+containerVideoPlayer{
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: rgb(22, 5, 5) !important;
+}
