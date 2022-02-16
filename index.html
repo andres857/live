@@ -7,24 +7,24 @@
 </head>
 
 <body>
+  <main>
+    <section  >
+      <video
+        id="my-video"
+        class="video-js "
+        controls
+        preload="auto"
+        poster="./assets/images/lilitv.png"
+        data-setup="{}"
+        muted
+        autoplay
+        >
+          <source src="https://rtmpwindowschanneletb.windowschannel.com/hls/comercial.m3u8" type="application/x-mpegURL" />
+      </video>
+    </section>
+  </main>
 
-      <div >
-        <video
-          id="my-video"
-          class="video-js "
-          controls
-          width=1900
-          height=960
-          preload="auto"
-          poster="./assets/images/lilitv.png"
-          data-setup="{}"
-          muted
-          autoplay
-          class="containerVideoPlayer "
-          >
-            <source src="https://rtmpwindowschanneletb.windowschannel.com/hls/comercial.m3u8" type="application/x-mpegURL" />
-        </video>
-      </div>
+
     
   <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
 </body>
